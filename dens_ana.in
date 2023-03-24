@@ -1,0 +1,14 @@
+rtype='nos'
+mo_file='_eomee-ccsd_transition_1_a"_u_no.mo'
+ana_files=['./_eomee-ccsd_transition_1_a"_u_no.mo']
+at_lists=[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],[23,24]]
+rd_ene=True
+pop_ana=True
+unpaired_ana=False
+AD_ana=False
+jmol_orbitals='False'
+BO_ana=False
+output_file='summ.txt'
+output_prec=(7, 3)
+mcfmt='% 10E'
+print_sorted=True
