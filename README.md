@@ -1,4 +1,16 @@
-Q-Chem input and output files. 
-TheoDORE input file.
+Names in ctnumbers that include '_' are causing problems.
 
-How to generate CT numbers for one fragment consisting of Ca and O and the rest of the molecule forming the other fragment?
+To reproduce run
+```
+theodore analyze_tden
+theodore plot_om_bars
+pdflatex Om_bars.tex
+```
+
+The `.tex` file reports double subscript error.
+```
+! Double subscript.
+\tick ->$uhfref_1_
+                  1$
+l.84 \end{axis}
+```
